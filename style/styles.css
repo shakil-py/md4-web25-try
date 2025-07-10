@@ -87,6 +87,30 @@ ul li a {
 
 .header p {
     font-size: 20px;
-    color: #333;
+    color: #010101;
 
+}
+
+/* avout section */
+.about-section {
+    text-align: center;
+    margin: 130px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: #FFF8F3;
+    color: rgb(0, 0, 0);
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.item-discription {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
 }
