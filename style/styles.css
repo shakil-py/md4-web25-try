@@ -27,17 +27,6 @@ ul li a {
     font-weight: 600;
 }
 
-#hire-me {
-    background-color: orangered;
-    color: white;
-    font-size: larger;
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: black 1px 1px 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 .nav-links {
     display: flex;
     gap: 20px;
@@ -57,3 +46,46 @@ ul li a {
 }
 
 /* nav style */
+/* share style */
+.btn-primary {
+    background-color: orangered;
+    color: white;
+    font-size: larger;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 10px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* header naner style */
+.header {
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly:
+}
+
+.header-content {
+
+    margin: 100px;
+    color: #fff;
+
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #040404;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header p {
+    font-size: 20px;
+    color: #333;
+
+}
