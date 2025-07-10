@@ -2,11 +2,45 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    margin: 0px 205px 205px 0px;
+    padding: 40px;
+
 }
-.nav-links{
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+#hire-me {
+    background-color: orangered;
+    color: white;
+    font-size: larger;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
     display: flex;
     gap: 20px;
     text-decoration: none;
+}
+
+#nav-h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+#nav-h3-r {
+    color: orangered;
 }
