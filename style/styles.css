@@ -1,3 +1,12 @@
+/* nav style */
+
+.open-sans-primary {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -11,7 +20,7 @@ nav ul li {
     text-decoration: none;
     justify-content: center;
     font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
     color: black;
     font-weight: bold;
 }
@@ -34,7 +43,7 @@ nav ul li {
 }
 
 #nav-h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
     font-size: 40px;
     color: #333;
     font-weight: bold;
@@ -44,3 +53,5 @@ nav ul li {
 #nav-h3-r {
     color: orangered;
 }
+
+/* nav style */
