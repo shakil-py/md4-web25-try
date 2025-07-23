@@ -5,44 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Layout Demo - Mary Hardy</title>
+    <link rel="stylesheet" href="/style/demo-styles.css">
     <style>
         .flexbox {
             display: flex;
             align-items: center;
+            gap: 10px;
+            max-width: 800px;
+            margin: 40px auto;
         }
 
         .left {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0;
+            flex-direction: column;
             width: 40%;
-            height: 100px;
-            border: 1px solid black;
-            background: #adabab;
-            margin-right: 10px;
+            min-height: 200px;
+            border: 2px solid #333;
+            background: linear-gradient(135deg, #adabab 0%, #c0c0c0 100%);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
 
         .right {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0;
-            width: 100%;
-            height: 100px;
-            border: 1px solid black;
-            background: #bda9a9;
+            flex-direction: column;
+            flex: 1;
+            min-height: 200px;
+            border: 2px solid #333;
+            background: linear-gradient(135deg, #bda9a9 0%, #d0b0b0 100%);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
 
-        @media screen and (max-width: 600px) {
+        .left h3, .right h3 {
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .left p, .right p {
+            text-align: center;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        @media screen and (max-width: 768px) {
             .flexbox {
                 flex-direction: column;
+                gap: 20px;
+                margin: 20px;
             }
 
             .left,
             .right {
                 width: 100%;
-                margin-right: 0;
             }
         }
     </style>

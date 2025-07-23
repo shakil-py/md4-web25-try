@@ -47,8 +47,8 @@ nav {
     align-items: center;
     padding: 20px 40px;
     background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     left: 0;
@@ -342,8 +342,8 @@ nav {
     background: rgba(255, 255, 255, 0.1);
     padding: 30px;
     border-radius: 15px;
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease;
 }
