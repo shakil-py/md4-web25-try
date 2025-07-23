@@ -4,33 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protfolio </title>
-    <link rel="stylesheet" href="/style/styles.css">
+    <title>Mary Hardy - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="/style/enhanced-styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     </style>
 </head>
 
 <body class="open-sans-primary">
+    <!-- header section -->
     <header class="header-container">
         <nav>
             <h3 id="nav-h3">Ma<span id="nav-h3-r">r</span>y</h3>
             <ul class="nav-links">
-                <li><a class="nav-li" href="#about">About</a></li>
-                <li><a class="nav-li" href="#projects">Projects</a></li>
-                <li><a class="nav-li btn-primary" id="hire-me" href="">Hire Me</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a class="btn-primary" href="#contact">Hire Me</a></li>
             </ul>
         </nav>
         <div class="header">
-            <div class="header-content">
-                <h1 class="header-h1">Hello, I'm Mary Hardy</h1>
-                <p class="header-p">A passionate web developer with a knack for creating stunning and functional
-                    websites.</p>
-                <button class="btn-primary">View My Work</button>
-                <button class="btn-primary">Contact</button>
-            </div>
-            <div class="header-image">
-                <img src="/images/hardy.png" alt="Mary's Image" class="header-img">
+            <div class="header-wrapper">
+                <div class="header-content">
+                    <h1>Hello, I'm Mary Hardy</h1>
+                    <p>A passionate web developer with a knack for creating stunning and functional websites. I specialize in modern web technologies and responsive design.</p>
+                    <div class="btn-group">
+                        <a href="#projects" class="btn-primary">View My Work</a>
+                        <a href="#contact" class="btn-primary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="/images/hardy.png" alt="Mary's Image" class="header-img">
+                </div>
             </div>
     </header>
     <main>
@@ -58,8 +64,8 @@
                 </div>
             </div>
         </section>
-        <!-- what to do  -->
-        <section class="what-I-do my-section">
+        <!-- skills section -->
+        <section id="skills" class="what-I-do my-section">
             <div class="what-i-do-header">
                 <h2>What I Do</h2>
                 <p>I specialize in creating responsive and user-friendly websites that meet the needs of my clients. My
@@ -95,6 +101,48 @@
                 </div>
             </div>
         </section>
+        
+        <!-- projects section -->
+        <section id="projects" class="projects-section my-section">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I've worked on, showcasing my skills in web development and design.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="/images/hardy.png" alt="Flexbox Layout Project">
+                    <div class="project-info">
+                        <h3>Responsive Flexbox Layout</h3>
+                        <p>A responsive layout demonstration using CSS Flexbox with mobile-first design approach. Features clean design and smooth transitions.</p>
+                        <div class="project-links">
+                            <a href="flex.html" class="btn-primary">View Demo</a>
+                            <a href="#" class="btn-primary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/images/hardy.png" alt="Advanced Flexbox Project">
+                    <div class="project-info">
+                        <h3>Advanced Flexbox Components</h3>
+                        <p>Advanced flexbox components with image-text layouts and responsive design patterns. Demonstrates modern CSS techniques.</p>
+                        <div class="project-links">
+                            <a href="flex2.html" class="btn-primary">View Demo</a>
+                            <a href="#" class="btn-primary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/images/developer.png" alt="Portfolio Website">
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A modern, responsive portfolio website built with HTML5, CSS3, and JavaScript. Features smooth animations and clean design.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-primary">View Demo</a>
+                            <a href="#" class="btn-primary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <!-- education section -->
         <section id="education" class="education-section my-section">
             <h2>My Education</h2>
@@ -114,9 +162,38 @@
                 </div>
             </div>
         </section>
+        
+        <!-- contact section -->
+        <section id="contact" class="contact-section my-section">
+            <h2>Get In Touch</h2>
+            <p>I'm always interested in new opportunities and exciting projects. Let's work together!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>Email</h4>
+                    <p>mary@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Phone</h4>
+                    <p>+880 123 456 789</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Location</h4>
+                    <p>Dhaka, Bangladesh</p>
+                </div>
+            </div>
+            <div class="contact-buttons">
+                <a href="mailto:mary@gmail.com" class="btn-primary">Send Email</a>
+                <a href="#" class="btn-primary">Download CV</a>
+            </div>
+        </section>
 
     </main>
-    <footer></footer>
+    
+    <footer>
+        <p>&copy; 2024 Mary Hardy. All rights reserved. | Built with ❤️ using HTML, CSS & JavaScript</p>
+    </footer>
+    
+    <script src="/style/main.js"></script>
 </body>
 
 </html>

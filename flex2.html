@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Flexbox Demo - Mary Hardy</title>
+    <style>
+        .fristbox,
+        .secondbox {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px;
+            width: 80%;
+            margin: auto;
+
+        }
+
+        .fristbox img,
+        .secondbox img {
+            width: 100%;
+
+        }
+
+        .secondbox {
+            flex-direction: row-reverse;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .fristbox,
+            .secondbox {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .fristbox img,
+            .secondbox img {
+                width: 100%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="padding: 20px; background: #333; color: white; text-align: center;">
+        <a href="index.html" style="color: #ff6347; text-decoration: none; font-weight: bold; font-size: 18px;">&larr; Back to Portfolio</a>
+    </nav>
+    
+    <header style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+        <h1>Advanced Flexbox Components</h1>
+        <p>Demonstrating image-text layouts with flexible positioning</p>
+    </header>
+    
+    <main style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
+        <section>
+            <h2 style="text-align: center; margin-bottom: 40px; color: #333;">Flexible Image-Text Layouts</h2>
+            
+            <div class="fristbox">
+                <img src="/images/hardy.png" alt="Mary Hardy Profile">
+                <div class="discription">
+                    <h3>Web Development Expertise</h3>
+                    <p>I specialize in creating modern, responsive websites using the latest web technologies. My approach focuses on clean code, user experience, and performance optimization to deliver exceptional digital solutions.</p>
+                </div>
+            </div>
+            
+            <div class="secondbox">
+                <img src="/images/hardy.png" alt="Mary Hardy Profile">
+                <div class="discription">
+                    <h3>Responsive Design Philosophy</h3>
+                    <p>Every project I work on is built with a mobile-first approach, ensuring seamless functionality across all devices. I believe in creating inclusive, accessible web experiences that work for everyone.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
