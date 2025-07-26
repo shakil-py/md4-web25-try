@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (headerText) {
         const text = headerText.textContent;
         headerText.textContent = '';
-        headerText.style.borderRight = '2px solid #ff6347';
+        // headerText.style.borderRight = '2px solid #ff6347';
         
         let i = 0;
         function typeWriter() {
